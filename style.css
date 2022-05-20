@@ -11,13 +11,49 @@ body{
 
 
 /*Differing Areas on page*****************************************************************************************************/
-#question1, #question2, #question3, #question4, #question5, #question6, #results {
+#question1 {
+  display:none;
+  width:750px;
+
+}
+
+#question2 {
   display:none;
   width:750px;
 }
 
+#question3 {
+  display:none;
+  width:750px;
+}
+
+#question4 {
+  display:none;
+  width:750px;
+}
+
+#question5 {
+  display:none;
+  width:750px;
+}
+
+#question6 {
+  display:none;
+  width:750px;
+}
+
+#results {
+  display:none;
+  width:750px;
+}
+
+
+
 #quizarea
 {
+  /* background-image: url("Frozen.jpg");
+  background-repeat: no-repeat; */
+
   position: absolute;
   margin: auto;
   top: 0;
@@ -78,24 +114,10 @@ body{
   cursor: pointer;
   width: 30% ;
   margin: 40px;
-
 }
 
 
 input[type='radio'] {
   transform:scale(1.5)
-    /*position: absolute;*/
-    /* opacity: 0; */
-    /* width: 0;
-    height: 0; */
+
   }
-
-  /* IMAGE STYLES * /
-[type=radio] + img {
-  cursor: pointer;
-} */
-
-/* CHECKED STYLES */
-/* [type=radio]:checked + img {
-  outline: 2px solid #f00;
-} */
