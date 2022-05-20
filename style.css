@@ -1,0 +1,101 @@
+
+
+
+/*Page Background*****************************************************************************************************/
+body{
+  background-image: url("micky.jpg");
+  text-align: center;
+  height:100%;
+  width:100%;
+}
+
+
+/*Differing Areas on page*****************************************************************************************************/
+#question1, #question2, #question3, #question4, #question5, #question6, #results {
+  display:none;
+  width:750px;
+}
+
+#quizarea
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height:90%;
+  width:800px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  padding-top: 10px;
+
+}
+
+#quizform
+{
+  padding-top: 70px;
+  padding-bottom: 200px;
+  padding-left: -100px;
+  padding-right: -100px;
+}
+
+#result
+{
+  background-color: #0438fc;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.text-center
+{
+  font-size: 24px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*Page buttons and styles*****************************************************************************************************/
+#button
+{
+  background-color:#0438fc;
+  border:#040c7c solid;
+  border-width: 5px;
+  border-radius: 50px;
+  color: #ffffff;
+  padding: 10px 28px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top: 100%;
+  right: 40%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 30% ;
+  margin: 40px;
+
+}
+
+
+input[type='radio'] {
+  transform:scale(1.5)
+    /*position: absolute;*/
+    /* opacity: 0; */
+    /* width: 0;
+    height: 0; */
+  }
+
+  /* IMAGE STYLES * /
+[type=radio] + img {
+  cursor: pointer;
+} */
+
+/* CHECKED STYLES */
+/* [type=radio]:checked + img {
+  outline: 2px solid #f00;
+} */
